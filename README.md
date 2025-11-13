@@ -52,13 +52,3 @@ Projects Completed: [Updating as I build]
 
 ---
  
-## 📝 License
-
-This repository is for educational purposes and personal learning documentation.
-
----
-
-
----
-
-*"The only way to learn a new programming language is by writing programs in it." - Dennis Ritchie*
