@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="counter">0</div>
+<div class="container">
+    <div class="box">hey i am box</div>
+</div>
+    <button id="btn">Click me</button>
+
+    <!-- <script src="./promises.js"></script> -->
+</body>
+
+<script>
+    let button = document.getElementById("btn")
+
+button.addEventListener("click",(e)=>{
+    // alert("i was clicked")
+    document.querySelector(".box").textContent="hey"
+    console.log(e.key)
+})
+
+
+// setInterval(()=>{
+// document.querySelectorAll('#btn').style.backgroundColor = "red"
+// },2000)
+
+setTimeout(()=>{
+document.querySelector('#btn').style.backgroundColor = "green"
+},2000)
+
+ 
+</script>
+</html>

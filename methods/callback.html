@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>promise</title>
+</head>
+
+<body>
+
+
+
+    <script>
+
+        // console.log("yash is hacker ");
+        // console.log("rohan is hacker");
+
+        // // setTimeout(() => {
+        // //     console.log("i am inside set timeout ")
+        // // }, 2000)
+
+        // console.log("the end")
+
+        // let a = (arg)=>{
+        //         console.log(arg)
+        // }
+
+        // let b = (a)=>{
+        //     console.log("outfuncion is runnign")
+        //     a("yash")
+        // }
+
+        // b(a)
+
+        // function callbackfunct(){
+        //     console.log("hello");
+        // }
+
+        // function fun1(callback){
+        //     callback()
+        // }
+
+        // fun1(callbackfunct)
+
+
+let promp1 = new Promise((resolve,reject)=>{
+
+
+    let a = 10;
+    if(a<5){
+         resolve("its resolved bhai")
+    }else{
+        reject("its rejected")
+    }
+})
+
+
+promp1.then((a)=>{
+console.log(a);
+}).catch((err)=>{
+    console.log(err);
+}).finally(()=>{
+    console.log("its an finally");
+})
+    </script>
+
+</body>
+
+</html>
